@@ -1,10 +1,7 @@
-import { FormEvent } from "react";
 import { useForm } from "react-hook-form";
 
 export default function Home() {
   const onSubmit = async (formData: any) => {
-    console.log(formData.name);
-
     const postData = async () => {
       const data = {
         name: formData.name,
