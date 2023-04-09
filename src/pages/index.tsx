@@ -9,7 +9,8 @@ export default function Home() {
 
       try {
         const response = await fetch(
-          "http://cambry.sa-east-1.elasticbeanstalk.com/events",
+          "https://backend.cambry.app/events",
+          // "http://cambry.sa-east-1.elasticbeanstalk.com/events",
           // "http://localhost:3009/events",
           {
             method: "POST",
