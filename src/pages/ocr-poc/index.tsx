@@ -5,6 +5,7 @@ import { Dropzone, IMAGE_MIME_TYPE } from "@mantine/dropzone";
 import { AnalyzeDocumentCommand } from "@aws-sdk/client-textract";
 import { TextractClient } from "@aws-sdk/client-textract";
 
+//trigger
 interface Block {
   Id: string;
   BlockType: string;
